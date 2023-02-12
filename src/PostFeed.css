@@ -1,0 +1,49 @@
+.feedContainer{
+    height: 400px;
+    width: 650px;
+    background-color:rgb(206, 224, 224);
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    transform: translate(-50% -50%);
+    border-radius: 10px;
+    padding: .5rem;
+    border: .5px solid black;
+    
+}
+
+.feedContainer .hName{
+    display: flex;
+    align-items: center;
+    width: 60px;
+    height: 40px;
+    background-color: #fff;
+    border-bottom: 1px solid blue;
+    padding: 5px;
+    
+}
+.feedContainer textarea{
+   height: 200px;
+   border-radius: 5px;
+   border: 1px solid #dddddd;
+   outline: none;
+   padding: 10px 15px;
+   color: #000;
+}
+.container textarea:hover{
+    border-color: #ccc;
+}
+.feedContainer textarea:hover{
+    border-color: #9900ff;
+}
+.feedContainer .footer .post{
+    background-color: #1da1f2;
+    
+}
+.feedContainer .footer .post:hover{
+    background-color: #0c5481;
+    cursor: pointer;
+}

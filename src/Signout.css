@@ -1,0 +1,12 @@
+.signout{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 60px;
+    right: 0%;
+    background-color: #000;
+    transition: right -100% 2s ease-in;
+    border: none;
+    color: #fff;
+    padding: 5px;
+}

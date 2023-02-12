@@ -1,0 +1,55 @@
+.rightSide{
+    margin-bottom: 1.2rem;
+    padding: 1.5rem;
+     margin-top: 50px; 
+    
+}
+.insideRight{
+    position: fixed;
+}
+.rightSide .redditPremium{
+    width: 250px;
+    height: 100px;
+    padding: 5px;
+    background-color: #ffff;
+    border-radius: 10px;
+    border: 0.2px solid rgb(160, 153, 153);
+}
+.premiumUpper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+}
+.security{
+    color: #ff4500;
+}
+.premiumUpper p{
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0;
+}
+.premiumUpper h6{
+    margin: 0;
+}
+.redditPremium .trynow{
+    width: 95%;
+    height: 30px;
+    background-color: #ff4500;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+.primiumbtn{
+    width: 100%;
+    display: flex;
+justify-content: space-evenly;}
+.redditPremium .trynow:hover{
+    cursor: pointer;
+    background-color:#9e2d04 ;
+    transition: background-color 100ms ease-in;
+}

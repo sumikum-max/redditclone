@@ -1,0 +1,23 @@
+.highlightOptions{
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    border: none;
+    height: 40px;   
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    color: #1da1f2;
+}
+/* .highlightOptions > .MuiSvgIcon-root{
+     padding-left:15px ;
+    padd 
+} */
+.highlightOptions:hover{
+background-color: #5a8ebe;
+transition: background-color 500ms ease-in;
+color: #ffff;
+}
+.highlightOptions h4{
+    color: rgba(44, 43, 43,.6);
+}
